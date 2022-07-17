@@ -1,0 +1,139 @@
+.landscape-left-row {
+    display: grid;
+    grid-template-columns: 550px 265px 265px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.landscape-right-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.no-landscape-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.no-landscape-middle-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.giphy-tile {
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+}
+
+.giphy-tile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.text-tile {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.line-top-purple {
+    background-color: #9933ff;
+    height: 6px;
+}
+
+.line-middle-purple {
+    background-color: #9933ff;
+    height: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.line-bottom-purple {
+    background-color: #9933ff;
+    height: 6px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.line-top-sunshine {
+    height: 6px;
+    background-color: #fff700;
+}
+
+.line-middle-sunshine {
+    height: 6px;
+    background-color: #e8da45;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.line-bottom-sunshine {
+    height: 6px;
+    background-color: #938c37;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.line-top-turqoise {
+    height: 6px;
+    background-color: #00ccff;
+}
+
+.line-middle-turqoise {
+    height: 6px;
+    background-color: #18a6ca;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.line-bottom-turqoise {
+    height: 6px;
+    background-color: #127189;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.line-top-bluepurple {
+    height: 6px;
+    background-color: #6157ff;
+}
+
+
+.line-middle-bluepurple {
+    height: 6px;
+    background-color: #6157ff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.line-bottom-bluepurple {
+    height: 6px;
+    background-color: purple;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.overlay-purple {
+    position: absolute;
+    background: linear-gradient(0deg,
+            rgba(117, 38, 196, 0.601) rgba(224, 224, 224, 0) 30%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.giphy-tile:hover .overlay-purple {
+    height: 100%;
+}

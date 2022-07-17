@@ -13,3 +13,16 @@
 .row-header img {
     margin-right: 6px;
 }
+
+.trending-container {
+    display: flex;
+    height: 150px;
+    overflow: hidden;
+}
+
+.artist-container {
+    background-color: mediumaquamarine;
+    display: flex;
+    overflow: hidden;
+    height: 230px;
+}
