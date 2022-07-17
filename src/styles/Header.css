@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    align-items: center;
+
+}
+
+.header img {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.button {
+    background-color: #6d63ff;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.profile {
+    background-color: #4a494a;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img {
+    width: 35px;
+}
+
+.button-wrapper {
+    background-color: mediumaquamarine;
+    height: 35px;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+
+.reactions {
+    background: rgb(130, 190, 129);
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 1%, rgba(250, 203, 101, 1) 33%, rgba(33, 171, 171, 1) 84%);
+}
+
+.enterainment {
+    background: rgb(130, 190, 129);
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 47%, rgba(34, 193, 195, 1) 49%, rgba(253, 187, 45, 1) 94%);
+}
+
+.sports {
+    background: rgb(130, 190, 129);
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 55%, rgba(33, 171, 171, 1) 82%, rgba(250, 203, 101, 1) 98%);
+}
+
+.stickers {
+    background: rgb(33, 171, 171);
+    background: linear-gradient(0deg, rgba(33, 171, 171, 1) 45%, rgba(130, 190, 129, 1) 55%, rgba(250, 203, 101, 1) 98%);
+}
+
+.artists {
+    background: rgb(130, 190, 129);
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 1%, rgba(33, 171, 171, 1) 45%, rgba(250, 203, 101, 1) 98%);
+}
+
+.moreverticon {
+    background: rgb(130, 190, 129);
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 1%, rgba(250, 203, 101, 1) 70%, rgba(33, 171, 171, 1) 84%);
+}
+
+.menu-button {
+    background-color: #121211;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.hover-reactions:hover {
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 1%, rgba(250, 203, 101, 1) 33%, rgba(33, 171, 171, 1) 84%);
+}
+
+.hover-enterainment:hover {
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 47%, rgba(34, 193, 195, 1) 49%, rgba(253, 187, 45, 1) 94%);
+}
+
+.hover-sports:hover {
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 55%, rgba(33, 171, 171, 1) 82%, rgba(250, 203, 101, 1) 98%);
+}
+
+.hover-stickers:hover {
+    background: linear-gradient(0deg, rgba(33, 171, 171, 1) 45%, rgba(130, 190, 129, 1) 55%, rgba(250, 203, 101, 1) 98%);
+}
+
+.hover-artists:hover {
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 1%, rgba(33, 171, 171, 1) 45%, rgba(250, 203, 101, 1) 98%);
+}
+
+.hover-moreverticons:hover {
+    background: linear-gradient(0deg, rgba(130, 190, 129, 1) 1%, rgba(250, 203, 101, 1) 70%, rgba(33, 171, 171, 1) 84%);
+}
