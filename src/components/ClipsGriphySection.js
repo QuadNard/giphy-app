@@ -23,19 +23,19 @@ const ClipsGriphySection = ({ giphysArray }) => {
             {giphys && giphys.length ? (
                 <>
                     <div className="first-column">
-                        <img src={giphys?.[0]?.images.downsized.url} />
+                        <img src={giphys?.[0]?.images.downsized.url} alt=''/>
                         <div className="text">
                             <img src={giphyIconDark} alt="IconDark" />
                             <p>{giphys?.[0].title}</p>
                         </div>
                     </div>
                     <div className="second-column">
-                        <img src={giphys?.[1]?.images.downsized.url} />
+                        <img src={giphys?.[1]?.images.downsized.url}  alt=''/>
                         <div className="text">
                             <img src={giphyIconDark} alt="IconDark" />
                             <p>{giphys?.[1].title}</p>
                         </div>
-                        <img src={giphys?.[2]?.images.downsized.url} />
+                        <img src={giphys?.[2]?.images.downsized.url} alt='' />
                         <div className="text">
                             <img src={giphyIconDark} alt="IconDark" />
                             <p>{giphys?.[2].title}</p>
